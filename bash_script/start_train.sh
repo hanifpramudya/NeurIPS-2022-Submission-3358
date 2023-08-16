@@ -11,7 +11,7 @@ BASE_DIR=..
 DATA_DIR=${BASE_DIR}/datasets/cached_data
 
 # CUSTOMIZED
-DATA_NAME=finqa
+DATA_NAME=mathqa
 TRAIN_DATA=${DATA_DIR}/${DATA_NAME}/cached_train_data.json
 DEV_DATA=${DATA_DIR}/${DATA_NAME}/cached_test_data.json
 TEST_DATA=${DATA_DIR}/${DATA_NAME}/cached_dev_data.json
